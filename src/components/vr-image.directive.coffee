@@ -1,6 +1,6 @@
 π = Math.PI
 angular.module('ngCardboard')
-.directive 'vrFotoFrame', (THREE)->
+.directive 'vrImage', (THREE)->
 	scope: 
 		height: '='	
 		width: '='	

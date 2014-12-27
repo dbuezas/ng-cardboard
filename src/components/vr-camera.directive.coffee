@@ -7,7 +7,6 @@ angular.module('ngCardboard')
 	restrict: 'E'
 	require: ['^vrScene', '?^vrContainer']
 	link: ($scope, element, attribs, [vrScene, parentVrContainer])->
-		console.log 'vrCamera'
 		camera = new THREE.PerspectiveCamera($scope.fov, 1, 0.001, 700)
 		$scope.$watch 'fov', (newV, oldV)->
 			camera.fov = newV
