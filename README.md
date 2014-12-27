@@ -33,4 +33,7 @@ REMEMBER: all tests should go to the module they are testing!
 - `gulp add:directive -n name`
 
 # TODO
-- write the to do :P
+- Replace vr-audio implementation to use THREE.js own implementation
+- Add API to vr-container to transition states and use cartesian coordinates
+- Make a cooler demo
+- Implement DOM duplication and positioning for VR Webpages
