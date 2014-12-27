@@ -1,7 +1,7 @@
 ng-cardboard
 ============
 Virtual reality the Angular way
-
+- Demo: http://dbuezas.github.io/ng-cardboard
 - iOS 8 (Safari) / Android 4 (Chrome) / Desktop (Chrome/Safari/..) compatible
 
 ### Installation:
