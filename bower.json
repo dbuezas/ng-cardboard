@@ -1,0 +1,14 @@
+{
+  "name": "ngCardboard",
+  "version": "0.0.1",
+  "dependencies": {
+    "modernizr": "2.8.x",
+    "angular": "1.3.x",
+    "threejs": "*",
+    "angular-route": "~1.3.6"
+  },
+  "resolutions": {
+    "angular": "1.3.x",
+    "modernizr": "2.8.x"
+  }
+}

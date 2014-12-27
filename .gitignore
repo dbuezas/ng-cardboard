@@ -1,0 +1,7 @@
+node_modules
+#dist #we commit dist because the testserver pulls it
+.tmp
+tmp
+.sass-cache
+src/bower_components
+.DS_Store

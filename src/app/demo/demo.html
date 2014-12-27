@@ -1,0 +1,29 @@
+<div ng-controller="DemoCtrl">
+	<vr-scene update='update(dt)'>
+		<vr-container orientation="useIMU ? 'imu' : 'mouse'">
+			<vr-camera fov="70" stereo="stereo"></vr-camera>
+		</vr-container>
+
+		<vr-sphere radius="600" texture="assets/images/pano.jpg"></vr-sphere>
+		
+		<!-- <vr-container pan="0" pitch="0" distance="150">
+			<vr-model json="assets/auto.json" texture="assets/textures/gtare.jpg" scale="0.5"></vr-model>
+		</vr-container> -->
+
+		<!-- <vr-container pan="-90" pitch="0" distance="150">
+			<vr-container orientation="useIMU ? 'imu' : 'mouse'">
+				<vr-sphere radius="50" texture="assets/images/panorama_mini.jpg"></vr-sphere>
+			</vr-container>
+		</vr-container> -->
+		
+		<vr-container pan="-45" pitch="0" distance="20">
+			<vr-sound file="assets/birds.mp3" playing="true"></vr-sound>
+			<!-- <vr-foto-frame width="1" height="2" texture="assets/images/pic.png"></vr-foto-frame> -->
+		</vr-container>
+		
+		<vr-container pan="135" pitch="45" distance="20" >
+			<vr-sound file="assets/dogs.mp3" playing="true"></vr-sound>
+			<!-- <vr-foto-frame width="1" height="2" texture="assets/images/pic.png"></vr-foto-frame> -->
+		</vr-container>
+	</vr-scene>
+</div>
