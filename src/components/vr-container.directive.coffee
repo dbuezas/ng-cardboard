@@ -1,6 +1,6 @@
 π = Math.PI
 angular.module('ngCardboard')
-.directive 'vrContainer', (THREE)->
+.directive 'vrContainer', (THREE, $document)->
 	scope: 
 		orientation: '='
 		lat: '=' # latitude
@@ -20,7 +20,8 @@ angular.module('ngCardboard')
 			vrScene.scene.add vrContainer.object3d
 		controls = null				
 		if $scope.orientation is 'mouse'
-			controls = new THREE.OrbitControls(vrContainer.object3d, vrScene.renderer.domElement)
+			# controls = new THREE.OrbitControls(vrContainer.object3d, vrScene.renderer.domElement)
+			controls = new THREE.OrbitControls(vrContainer.object3d)
 			controls.rotateUp Math.PI / 4
 			controls.target.set vrContainer.object3d.position.x + 0.1, vrContainer.object3d.position.y, vrContainer.object3d.position.z
 			controls.noZoom = true

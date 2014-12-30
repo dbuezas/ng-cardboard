@@ -33,7 +33,11 @@ REMEMBER: all tests should go to the module they are testing!
 - `gulp add:directive -n name`
 
 # TODO
-- Replace vr-audio implementation to use THREE.js own implementation
-- Add API to vr-container to transition states and use cartesian coordinates
-- Make a cooler demo
-- Implement DOM duplication and positioning for VR Webpages
+- [ ] Replace vr-audio implementation to use THREE.js own implementation
+- [ ] Add API to vr-container to transition states and use cartesian coordinates
+- [ ] Make a cooler demo
+- [x] Implement DOM duplication and positioning for VR Webpages 
+- [ ] Test performance of making one CSSRenderer per vr-dom to allow stereo paralax corrections
+- [ ] Allow directives as attributes, and make them combinable. Requires solving :
+-- [ ] 1: One isolated scope per element problem. 
+-- [ ] 2: Better API, maybe like vrContainer="{lan: 3, long:4, dist:5}"

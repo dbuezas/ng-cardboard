@@ -1,6 +1,7 @@
 /**
  * Based on http://www.emagix.net/academic/mscs-project/item/camera-sync-with-css3-and-webgl-threejs
  * @author mrdoob / http://mrdoob.com/
+ * @author dbuezas: pass elements to CSS3D renderer
  */
 
 THREE.CSS3DObject = function ( element ) {
@@ -34,7 +35,7 @@ THREE.CSS3DSprite.prototype = Object.create( THREE.CSS3DObject.prototype );
 
 //
 
-THREE.CSS3DRenderer = function () {
+THREE.CSS3DRenderer = function (domElement, cameraElement) {
 
 	console.log( 'THREE.CSS3DRenderer', THREE.REVISION );
 
@@ -48,7 +49,9 @@ THREE.CSS3DRenderer = function () {
 		objects: {}
 	};
 
-	var domElement = document.createElement( 'div' );
+	if (!domElement) {
+		domElement = document.createElement( 'div' );
+	}
 	domElement.style.overflow = 'hidden';
 
 	domElement.style.WebkitTransformStyle = 'preserve-3d';
@@ -58,14 +61,17 @@ THREE.CSS3DRenderer = function () {
 
 	this.domElement = domElement;
 
-	var cameraElement = document.createElement( 'div' );
+	if (!cameraElement){
+		var cameraElement = document.createElement( 'div' );
 
+
+		domElement.appendChild( cameraElement );
+		
+	}
 	cameraElement.style.WebkitTransformStyle = 'preserve-3d';
 	cameraElement.style.MozTransformStyle = 'preserve-3d';
 	cameraElement.style.oTransformStyle = 'preserve-3d';
 	cameraElement.style.transformStyle = 'preserve-3d';
-
-	domElement.appendChild( cameraElement );
 
 	this.setClearColor = function () {
 
@@ -187,7 +193,7 @@ THREE.CSS3DRenderer = function () {
 
 			if ( element.parentNode !== cameraElement ) {
 
-				cameraElement.appendChild( element );
+				// cameraElement.appendChild( element );
 
 			}
 

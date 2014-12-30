@@ -164,12 +164,6 @@ THREE.DeviceOrientationControls = function(object) {
 						// Here I am just computing the derivatives of the orientation cuaternion
 					}
 
-					window.test = window.test || []
-					sample = []
-					window.test.push(sample)
-					for (i = 0; i < this.rates.length; i++){
-						sample.push(this.axisAngles[i].w)
-					}
 					this.lastT = now;
 				}
 			//}.bind(this),0)

@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="270" height="320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs xmlns="http://www.w3.org/1999/xhtml"><style type="text/css"><![CDATA[
+body { font-size: 1em; font-weight: 400; word-spacing: normal; letter-spacing: normal; text-transform: none; font-family: Verdana, 'Myriad Web', Syntax, sans-serif; color: rgb(0, 0, 0); line-height: 1.58em; border: 0px; width: auto; margin: 1.58em 5% 1.58em 8%; padding: 0px; background: rgb(255, 255, 255); }
+small { font-size: 0.92em; }
+big { font-size: 1.17em; }
+pre { border: 0px; line-height: 1.25em; margin: 0.75em 0px; padding: 0px; }
+ol li { list-style-type: decimal; }
+ol ol li { list-style-type: lower-alpha; }
+ol ol ol li { list-style-type: lower-roman; }
+table, tbody, tr, td { font-size: 1em; word-spacing: normal; letter-spacing: normal; text-transform: none; font-family: Verdana, 'Myriad Web', Syntax, sans-serif; }
+h1 { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 2em; font-weight: 700; font-style: normal; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; border: 0px; text-align: left; margin: 1.33em 0px 0.33em; padding: 0px; }
+h2 { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 1.75em; font-weight: 500; font-style: normal; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; border: 0px; text-align: left; margin: 1.75em 0px 0.33em; padding: 0px; }
+h3 { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 1.58em; font-weight: 500; font-style: normal; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; border: 0px; text-align: left; margin: 1.58em 0px 0.33em; padding: 0px; }
+h4 { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 1.33em; font-weight: 500; font-style: oblique; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; border: 0px; text-align: left; margin: 1.33em 0px 0.33em; padding: 0px; }
+h5, dt { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 1.17em; font-weight: 500; font-style: normal; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; }
+h6 { font-family: 'Myriad Web', Arial, Helvetica, sans-serif; font-size: 1em; font-weight: 500; font-style: normal; text-decoration: none; word-spacing: normal; letter-spacing: normal; text-transform: none; border: 0px; text-align: left; margin: 1em 0px 0.33em; padding: 0px; }
+tfoot, thead { font-size: 1em; word-spacing: normal; letter-spacing: normal; text-transform: none; font-family: 'Myriad Web', Arial, Helvetica, sans-serif; }
+th { vertical-align: baseline; font-size: 1em; font-weight: 700; word-spacing: normal; letter-spacing: normal; text-transform: none; font-family: 'Myriad Web', Arial, Helvetica, sans-serif; text-align: left; }
+hr { visibility: visible; color: rgb(0, 0, 0); border: 0px; height: 1px; text-align: left; width: 100%; margin: 0.75em 0px; padding: 0px; }
+a, address, blockquote, body, cite, code, dd, del, dfn, div, dl, dt, form, h1, h2, h3, h4, h5, h6, iframe, img, kbd, li, object, ol, p, q, samp, small, span, strong, ul, var, applet, big, center, dir, font, hr, menu, pre, abbr, acronym, bdo, button, fieldset, ins, label { word-spacing: normal; letter-spacing: normal; text-transform: none; text-decoration: none; border-color: rgb(0, 0, 0); border-style: none; }
+strong { font-style: italic; font-weight: 700; color: rgb(0, 0, 0); background: rgb(255, 255, 255); }
+em strong, strong em { text-transform: uppercase; font-style: normal; font-weight: bolder; color: red; background: rgb(255, 255, 255); }
+b { font-weight: 700; }
+.warning { text-transform: none; font-style: normal; font-weight: bolder; color: red; background: rgb(255, 255, 255); }
+del { text-decoration: line-through; background: rgb(255, 102, 102); }
+ins { text-decoration: underline; background: rgb(255, 255, 0); }
+address { font-style: normal; letter-spacing: 0.1em; border: 0px; margin: 1.58em 0px; padding: 0px; }
+acronym { font-variant: small-caps; letter-spacing: 0.1em; }
+h1, h2, h3, h4, h5, h6, dt, th, thead, tfoot { color: rgb(0, 0, 0); background: rgb(255, 255, 255); }
+#colophon { display: none; }
+col, colgroup, table, tbody, td, tr { color: rgb(0, 0, 0); text-decoration: none; border-color: rgb(0, 0, 0); border-style: none; background: rgb(255, 255, 255); }
+a:link { text-decoration: none; font-weight: 700; color: rgb(204, 0, 0); background: rgb(255, 255, 204); }
+a:visited { text-decoration: none; font-weight: 700; color: rgb(153, 153, 153); background: rgb(255, 255, 204); }
+a:active { text-decoration: none; font-weight: 700; color: red; background: rgb(255, 204, 0); }
+a:hover { text-decoration: none; color: rgb(204, 0, 0); background: rgb(255, 204, 0); }
+a.offsite { text-decoration: none; font-weight: 400; color: rgb(204, 0, 0); background: rgb(255, 255, 204); }
+a, address, blockquote, cite, code, dd, del, dfn, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, iframe, img, kbd, li, object, ol, p, q, samp, small, span, strong, ul, var, applet, b, big, center, dir, font, hr, i, menu, pre, s, strike, tt, u, abbr, acronym, bdo, button, fieldset, ins, label { border: 0px; vertical-align: baseline; text-align: left; float: none; clear: none; list-style-position: outside; margin: 0px; padding: 0px; }
+h5 { border: 0px; text-align: left; margin: 1.17em 0px 0.33em; padding: 0px; }
+p { border: 0px; text-indent: 0px; margin: 0.75em 0px; padding: 0px; }
+dd { border: 0px; margin: 0px 0px 0.75em 1.58em; padding: 0px; }
+li { border: 0px; margin: 0px 0px 0px 3.16em; padding: 0px; }
+div, center { margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; }
+.stb { margin-top: 2.17em; margin-bottom: 0.75em; padding-top: 2.17em; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; border-style: solid; }
+.mtb { margin-top: 3.08em; margin-bottom: 0.75em; padding-top: 3.08em; padding-bottom: 0px; border-top-width: 0.1em; border-bottom-width: 0px; border-style: solid; }
+.ltb { margin-top: 4.34em; margin-bottom: 0.75em; padding-top: 4.34em; padding-bottom: 0px; border-top-width: 0.25em; border-bottom-width: 0px; border-style: solid; }
+col, colgroup, table, tbody, td, tfoot, th, thead, tr { border: 0px; float: none; clear: none; margin: 0px; padding: 0px; }
+address, blockquote, dl, fieldset, form, ol, p, ul, dir, hr, menu, pre { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; border-left-width: 0px; border-right-width: 0px; }
+blockquote { margin-left: 1.58em; margin-right: 0px; padding-left: 0px; padding-right: 0px; border-left-width: 0px; border-right-width: 0px; }
+center { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; border-left-width: 0px; border-right-width: 0px; text-align: left; }
+i, var, cite, dfn, .note { font-style: italic; }
+h1, h2, h3, h4, h5, h6, td, th { line-height: 1.33em; }
+blockquote, fieldset, form, ul, ol, dl, dir, menu, .subhead { margin-top: 0.75em; margin-bottom: 0.75em; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; }
+dt, ul ul, ol ol, li address, li dl, li ol, li p, li ul, li dir, li hr, li menu, li pre, li h1, li h2, li h3, li h4, li h5, li h6, dd address, dd dl, dd ol, dd p, dd ul, dd dir, dd hr, dd menu, dd pre, dd h1, dd h2, dd h3, dd h4, dd h5, dd h6 { border: 0px; margin: 0px; padding: 0px; }
+table, td, caption { text-align: left; }
+#adsense { margin-top: 1em; }
+.curve, .line { fill: none; stroke-width: 1px; }
+.curve { stroke: rgb(255, 0, 0); stroke-width: 3px; }
+.control { fill: rgb(204, 204, 204); stroke: rgb(0, 0, 0); stroke-width: 0.5px; }
+.t, .controltext { font-size: 0.6em; }]]></style></defs><g transform="translate(10,10)"><g style="fill: rgb(57, 59, 121); stroke: rgb(57, 59, 121);"><circle r="4" cx="10" cy="250"/><circle r="4" cx="0" cy="0"/><circle r="4" cx="100" cy="0"/><circle r="4" cx="200" cy="250"/><circle r="4" cx="225" cy="125"/><path class="line" d="M10,250L0,0L100,0L200,250L225,125"/></g><g style="fill: rgb(107, 110, 207); stroke: rgb(107, 110, 207);"><circle r="4" cx="5.6220000000000026" cy="140.55000000000007"/><circle r="4" cx="43.77999999999997" cy="0"/><circle r="4" cx="143.77999999999997" cy="109.44999999999993"/><circle r="4" cx="210.945" cy="195.27500000000003"/><path class="line" d="M5.6220000000000026,140.55000000000007L43.77999999999997,0L143.77999999999997,109.44999999999993L210.945,195.27500000000003"/></g><g style="fill: rgb(99, 121, 57); stroke: rgb(99, 121, 57);"><circle r="4" cx="22.327572399999983" cy="79.01721000000008"/><circle r="4" cx="87.55999999999995" cy="47.91720999999994"/><circle r="4" cx="173.18483699999996" cy="147.02418499999996"/><path class="line" d="M22.327572399999983,79.01721000000008L87.55999999999995,47.91720999999994L173.18483699999996,147.02418499999996"/></g><g style="fill: rgb(181, 207, 107); stroke: rgb(181, 207, 107);"><circle r="4" cx="50.886329203279956" cy="65.40163000000003"/><circle r="4" cx="125.04655363859993" cy="91.30624365499992"/><path class="line" d="M50.886329203279956,65.40163000000003L125.04655363859993,91.30624365499992"/></g><g style="fill: rgb(255, 0, 0); stroke: rgb(255, 0, 0);"><circle r="4" cx="83.35367546106302" cy="76.74266985815898"/><path class="line" d="M83.35367546106302,76.74266985815898"/></g><path class="curve" d="M10,250L9.66556035,240.14999375000002L9.4604856,230.5999L9.38214835,221.34949375L9.427929599999999,212.3984L9.59521875,203.74609375L9.8814136,195.39190000000002L10.283920350000002,187.33499375L10.800153599999998,179.57439999999997L11.427536349999999,172.10899375000002L12.163499999999999,164.9375L13.00548435,158.05849375000003L13.9509376,151.4704L14.997316349999997,145.17149375000002L16.142085599999998,139.15990000000002L17.38271875,133.43359375L18.716697600000003,127.99040000000002L20.14151235,122.82799374999999L21.654661600000004,117.94389999999999L23.253652350000007,113.33549374999998L24.936000000000007,109L26.69922835000001,104.93449374999997L28.540869600000015,101.13589999999999L30.458464350000007,97.60099374999999L32.44956160000001,94.32639999999998L34.511718750000014,91.30859375L36.64250160000002,88.54389999999998L38.83948435000001,86.02849375L41.10024960000002,83.7584L43.42238835000002,81.72949374999999L45.80350000000002,79.93749999999999L48.24119235000003,78.37799374999999L50.733081600000034,77.04639999999999L53.276792350000036,75.93799374999999L55.86995760000003,75.04789999999998L58.510218750000035,74.37109374999999L61.19522560000003,73.90239999999999L63.92263635000005,73.63649374999999L66.69011760000004,73.5679L69.49534435000005,73.69099374999999L72.33600000000006,74.00000000000001L75.20977635000007,74.48899375L78.11437360000005,75.15190000000001L81.04750035000006,75.98249375000002"/><circle class="control" r="7" cx="10" cy="250"/><circle class="control" r="7" cx="0" cy="0"/><circle class="control" r="7" cx="100" cy="0"/><circle class="control" r="7" cx="200" cy="250"/><circle class="control" r="7" cx="225" cy="125"/><text class="t" x="125" y="300" text-anchor="middle">t=0.44</text><text class="controltext" dx="10px" dy=".4em" x="10" y="250">P0</text><text class="controltext" dx="10px" dy=".4em" x="0" y="0">P1</text><text class="controltext" dx="10px" dy=".4em" x="100" y="0">P2</text><text class="controltext" dx="10px" dy=".4em" x="200" y="250">P3</text><text class="controltext" dx="10px" dy=".4em" x="225" y="125">P4</text></g></svg>
