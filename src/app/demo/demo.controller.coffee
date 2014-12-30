@@ -7,6 +7,7 @@ angular.module('ngCardboard')
 		$scope.birdsLat = 70 - (t%60 /60)%1*120
 		$scope.holaScale = .8+Math.sin(t%1 * Math.PI*2)*.2
 		$scope.$apply()
+	$scope.holas = [0]
 	window.s = $scope;
 	$scope.lat = 0
 	$scope.long = 0

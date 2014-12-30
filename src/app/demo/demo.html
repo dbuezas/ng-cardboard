@@ -2,7 +2,14 @@
 	<vr-scene update='update(dt, t)' stereoscopic="stereo" eye-distance="eye">
 		<vr-container lat="-30" long="0" altitude="holaTest" >
 			<div vr-dom>
-				<div ng-repeat="i in [1,2]" class="hola" ng-style="{'transform':'scaleX('+holaScale+')'}">HOLA</div>	
+				<div ng-repeat="i in holas" 
+					class="hola" 
+					ng-style="{'transform':'scaleX('+holaScale+')'}"
+					ng-click="holas.push(holas.length)"
+				>
+					HOLA {{i}}
+				</div>
+
 				<!-- <video width="320" height="240" controls autoplay>
 				  <source src="assets/video.webm" type="video/webm">
 				  Your browser does not support the video tag.
