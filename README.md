@@ -70,7 +70,9 @@ REMEMBER: all tests should go to the module they are testing!
 - [ ] Replace vr-audio implementation to use THREE.js own implementation
 - [ ] Add API to vr-container to transition states and use cartesian coordinates
 - [ ] Make a cooler demo
-- [x] Implement DOM duplication and positioning for VR Webpages 
+- [x] Implement DOM duplication and positioning for VR Webpages for Webkit
+- [ ] Implement DOM duplication and positioning for VR Webpages for Gecko
+- [ ] Test compatibility with Firefox OS 
 - [ ] Test performance of making one CSSRenderer per vr-dom to allow stereo paralax corrections
 - [ ] Allow directives as attributes, and make them combinable. Requires solving :
 - [ ] 1: One isolated scope per element problem. 
