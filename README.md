@@ -23,6 +23,37 @@ REMEMBER: all tests should go to the module they are testing!
 - `gulp serve` for serving the development environment
 - `gulp serve:dist` for production environment
 
+# Directives API
+* for now just an example:
+ 
+```html
+    <vr-scene update='update(dt, t)' stereoscopic="true" eye-distance="4">
+        <vr-container lat="-30" long="0" altitude="10" >
+            <div vr-dom>
+                <div ng-repeat="i in ['Kika', 'Cora', 'Anna']" 
+                    class="hola" 
+                    ng-click="holas.push(holas.length)"
+                >
+                    HOLA {{i}}
+                </div>
+            </div>
+            
+        </vr-container>
+        
+        <vr-container orientation="'imu'">
+            <vr-camera fov="75"></vr-camera>
+        </vr-container>
+
+        <vr-sphere radius="600" texture="assets/images/pano.jpg"></vr-sphere>
+        
+        <vr-container lat="10" long="0" altitude="200" >
+            <vr-sound file="assets/dogs.mp3" playing="sound"></vr-sound>
+            <vr-image width="100" height="200" texture="assets/images/dog.png"></vr-image>
+        </vr-container>
+    </vr-scene>
+    
+```
+
 # Scaffolding
 
 - `gulp add:controller -n name`
@@ -33,6 +64,7 @@ REMEMBER: all tests should go to the module they are testing!
 - `gulp add:directive -n name`
 
 # TODO
+- [ ] make a propper documentation of each directive
 - [ ] extract vr-modules to allow easy integration in existing programs
 - [ ] upload to bower
 - [ ] Replace vr-audio implementation to use THREE.js own implementation
@@ -41,5 +73,5 @@ REMEMBER: all tests should go to the module they are testing!
 - [x] Implement DOM duplication and positioning for VR Webpages 
 - [ ] Test performance of making one CSSRenderer per vr-dom to allow stereo paralax corrections
 - [ ] Allow directives as attributes, and make them combinable. Requires solving :
--- [ ] 1: One isolated scope per element problem. 
--- [ ] 2: Better API, maybe like vrContainer="{lan: 3, long:4, dist:5}"
+- [ ] 1: One isolated scope per element problem. 
+- [ ] 2: Better API, maybe like vrContainer="{lan: 3, long:4, dist:5}"

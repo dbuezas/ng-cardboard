@@ -14,7 +14,7 @@ angular.module('ngCardboard')
 				</css-3d-camera>
 			</mirror-2>
 		</mirror-1>'
-	controller: ($scope, $element)->
+	controller: ($scope)->
 		# TODO: review controller vs link vs compile semantic and put code where it belongs
 		@$on = $scope.$on.bind($scope)
 		@$emit = $scope.$emit.bind($scope)
